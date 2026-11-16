@@ -2,13 +2,14 @@
 
 A reusable Codex skill for drafting and editing in FedRAMP’s clear, practical public writing style.
 
-It supports three registers:
+It supports four registers:
 
 - **Rules and requirements:** explicit actors, actions, scope, and carefully preserved requirement language.
-- **Stakeholder updates:** what changed, why it matters, and what readers should do next.
+- **Announcements and leadership updates:** what changed, what has been delivered, and who will do what next.
+- **Operational notices:** who needs to act, by when, under which conditions, and where to get help.
 - **Conversational explainers:** concrete problems, plain language, and connections to government mission delivery.
 
-The skill draws on CR26 guidance, official FedRAMP communications, and a publicly accessible Pete Waterman podcast clip. Source links and the limits of the reviewed material are documented in [references/sources.md](references/sources.md). Source prose and transcripts are not bundled.
+The skill draws on CR26 guidance, official FedRAMP communications, Pete Waterman’s signed prose, and attributable interview quotations. The November 16, 2026 review added recent notices and milestone writing alongside older Waterman material that expands the original source set. Source links, dates, useful writing patterns, and review limits are documented in [references/sources.md](references/sources.md). Source prose and transcripts are not bundled.
 
 ## Install in Codex
 
