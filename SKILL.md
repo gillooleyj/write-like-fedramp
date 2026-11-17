@@ -40,4 +40,15 @@ Style examples are not current policy authority. Verify substantive requirements
 
 Do not let an older interview, blog post, preview, or legacy page override current rules. Check status at the relevant section or statement: one published notice can contain a final decision, a future pilot, and draft rules. Distinguish pilot certification from full certification and FedRAMP Certification from an agency's authorization when relevant. Preserve historical context when requested. If sources conflict or verification is unavailable, identify the specific unresolved claim rather than inventing a plausible requirement.
 
-Before delivery, check that the main point and next action are clear, that obligations and qualifications survived the edit, and that the voice fits the actual speaker. Return the requested writing, with factual citations where useful. Append a style analysis only if asked.
+## Edit out formulaic prose
+
+After drafting, use [Humanizer](https://github.com/blader/humanizer) in embedded mode when that skill is available, applying the safeguards below. If it is unavailable, perform this focused pass directly:
+
+- Remove staged openings, repeated conclusions, and sentences that announce importance without adding information. In a reply, use the context the reader already has.
+- Replace inflated descriptions, vague appeals to experts, and sales language with supported facts and concrete actors. Do not invent specifics to make a sentence more vivid.
+- Rework decorative contrasts, forced groups of three, and repetitive sentence shapes. Keep distinctions and list items that carry separate facts; rewrite a whole paragraph when phrase-by-phrase edits remain awkward.
+- Trim distracting bold labels, headings, and punctuation. Follow the selected writing sample's cadence and punctuation rather than imposing a blanket dash ban. Keep headings, lists, and emphasis that help readers find obligations or deadlines.
+
+Preserve requirement force, negation, conditions, exceptions, uncertainty, dates, numbers, quotations, citations, and link targets. Repeated actor-led rules can be appropriate. Keep official terms such as Key Security Indicators even when a word appears on a generic watch list. Retain real scope boundaries and safety notices; remove only empty hedging. Do not add personal reactions or anecdotes, casual phrasing, or deliberate imperfections merely to sound human.
+
+Compare the revision with the draft for lost or changed claims, then reread it for natural flow in the chosen register. A stylistic pattern is a reason to inspect prose, not proof of authorship. Return only the finished writing with factual citations where useful; provide intermediate drafts, pattern lists, or a style analysis only if asked.

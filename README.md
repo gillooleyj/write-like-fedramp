@@ -35,6 +35,12 @@ Use $write-like-fedramp to tighten these draft requirements while preserving the
 
 Supply the text or verified facts, audience, and desired format. The skill keeps your organization’s perspective and does not imply that you speak for FedRAMP. It works independently; the Write Like Me plugin is optional.
 
+## Humanizer editing pass
+
+The final editing pass adapts guidance from [Humanizer 4.0.0](https://github.com/blader/humanizer) by Siqi Chen. It removes formulaic openings, inflated claims, repeated conclusions, and decorative structure while preserving the facts and the selected FedRAMP register.
+
+When Humanizer is installed, the skill uses its embedded mode and returns the finished writing. A focused built-in pass supports users without the plugin. Both preserve requirement language, official terminology, citations, and meaningful qualifications. The pass improves prose; it does not determine authorship or guarantee a particular AI-detector result.
+
 ## Style and policy accuracy
 
 This is a writing skill, not a compliance engine. It instructs the agent to verify current requirements, dates, terminology, and applicability against official sources. Historical interviews and style examples do not override current rules. Browsing access is needed when those facts require verification.
@@ -47,4 +53,4 @@ Open an issue with a concrete writing example or a pull request with a focused i
 
 ## License
 
-The original skill instructions and documentation are available under the [MIT License](LICENSE). Linked third-party sources remain subject to their own terms.
+The skill instructions and documentation, including the adapted Humanizer guidance, are available under the [MIT License](LICENSE), which retains Humanizer's copyright notice. Linked third-party sources remain subject to their own terms.
