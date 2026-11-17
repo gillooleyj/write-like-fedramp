@@ -1,15 +1,15 @@
 # Write Like FedRAMP
 
-A reusable Codex skill for drafting and editing in FedRAMP’s clear, practical public writing style.
+Use this Codex skill to draft and revise text in FedRAMP’s public writing style. Help readers understand what changed, why it matters to their work, and what they need to do.
 
-It supports four registers:
+Use it to:
 
-- **Rules and requirements:** explicit actors, actions, scope, and carefully preserved requirement language.
-- **Announcements and leadership updates:** what changed, what has been delivered, and who will do what next.
-- **Operational notices:** who needs to act, by when, under which conditions, and where to get help.
-- **Conversational explainers:** concrete problems, plain language, and connections to government mission delivery.
+- Write requirements that name the responsible party and action, preserve the scope, and keep each obligation’s meaning intact.
+- Draft announcements and leadership updates that explain what changed, what has been delivered, and who will do what next.
+- Prepare operational notices that make the required action, deadline, conditions, and support route easy to find.
+- Explain security problems in plain language, using concrete examples and their effects on government work.
 
-The skill draws on CR26 guidance, official FedRAMP communications, Pete Waterman’s signed prose, and attributable interview quotations. The November 16, 2026 review added recent notices and milestone writing alongside older Waterman material that expands the original source set. Source links, dates, useful writing patterns, and review limits are documented in [references/sources.md](references/sources.md). Source prose and transcripts are not bundled.
+The writing guidance draws on CR26, official FedRAMP communications, Pete Waterman’s signed prose, and interview quotations attributed to him. The November 16, 2026 review expanded the source list with recent notices, milestone updates, and earlier Waterman material. See [references/sources.md](references/sources.md) for links, dates, writing patterns, and limits on what was reviewed. The repository does not include copies of source prose or transcripts.
 
 ## Install in Codex
 
@@ -21,7 +21,7 @@ git clone https://github.com/gillooleyj/write-like-fedramp.git ~/.codex/skills/w
 
 If you use a custom `CODEX_HOME`, clone into its `skills/write-like-fedramp` directory instead. If that directory already contains the skill, use the existing installation or back it up before replacing it.
 
-The skill will be available on your next turn. Invoke it explicitly with `$write-like-fedramp`, or ask Codex to write in FedRAMP’s voice.
+The skill will be available on your next turn. Use `$write-like-fedramp`, or ask Codex to write in FedRAMP’s voice.
 
 ## Use
 
@@ -33,24 +33,24 @@ Use $write-like-fedramp to explain this policy change to agency security teams.
 Use $write-like-fedramp to tighten these draft requirements while preserving their meaning.
 ```
 
-Supply the text or verified facts, audience, and desired format. The skill keeps your organization’s perspective and does not imply that you speak for FedRAMP. It works independently; the Write Like Me plugin is optional.
+Provide your draft or verified facts, identify the audience, and specify the format. The skill preserves your organization’s perspective without implying that you speak for FedRAMP. You can use it on its own or with the Write Like Me plugin.
 
 ## Humanizer editing pass
 
-The final editing pass adapts guidance from [Humanizer 4.0.0](https://github.com/blader/humanizer) by Siqi Chen. It removes formulaic openings, inflated claims, repeated conclusions, and decorative structure while preserving the facts and the selected FedRAMP register.
+Before returning a draft, the skill checks for formulaic openings, inflated claims, repeated conclusions, and formatting that gets in the reader’s way. This editing pass adapts guidance from [Humanizer 4.0.0](https://github.com/blader/humanizer) by Siqi Chen.
 
-When Humanizer is installed, the skill uses its embedded mode and returns the finished writing. A focused built-in pass supports users without the plugin. Both preserve requirement language, official terminology, citations, and meaningful qualifications. The pass improves prose; it does not determine authorship or guarantee a particular AI-detector result.
+If Humanizer is installed, the skill uses it for this pass and returns only the finished writing. Otherwise, it uses the editing guidance included in the skill. Both approaches preserve facts, requirement language, official terminology, citations, and meaningful qualifications while keeping the tone appropriate to the document. The pass does not determine authorship or guarantee an AI-detector result.
 
 ## Style and policy accuracy
 
-This is a writing skill, not a compliance engine. It instructs the agent to verify current requirements, dates, terminology, and applicability against official sources. Historical interviews and style examples do not override current rules. Browsing access is needed when those facts require verification.
+The skill provides writing guidance. It does not assess compliance. It directs Codex to verify current requirements, dates, terminology, and applicability against official sources, with browsing access when verification is needed. Historical interviews and style examples do not override current rules.
 
-This is an independent community project, not an official FedRAMP or GSA publication, and it does not imply endorsement by FedRAMP, GSA, or Pete Waterman.
+This independent community project is not an official FedRAMP or GSA publication. It does not imply endorsement by FedRAMP, GSA, or Pete Waterman.
 
 ## Contribute
 
-Open an issue with a concrete writing example or a pull request with a focused improvement. Keep source attribution clear, preserve the distinction between style and policy authority, and avoid adding copied source prose or transcripts.
+Open an issue with a concrete writing example or submit a pull request with a focused improvement. Attribute sources clearly and distinguish writing examples from current policy authority. Do not add copied source prose or transcripts.
 
 ## License
 
-The skill instructions and documentation, including the adapted Humanizer guidance, are available under the [MIT License](LICENSE), which retains Humanizer's copyright notice. Linked third-party sources remain subject to their own terms.
+The instructions and documentation, including the adapted Humanizer guidance, use the [MIT License](LICENSE). The license retains Humanizer's copyright notice. Linked third-party sources remain subject to their own terms.
